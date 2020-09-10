@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: tahoma, arial, sans-serif, "lucida grande";
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: 600px;
+    max-height: 6000px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.header{
+    width: 600px;
+    height: 20px;
+    margin-bottom: 2px;
+}
+.header_1{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+#logo{
+    font-size: 20px;
+    color: grey;
+}
+
+.header_2{
+    display: flex;  
+}
+.menu{
+    width: 160px;
+    text-align: center;
+    color: grey;
+    background-color: #DCDCDC;
+}
+.menu:hover{
+    background-color: grey;
+    color: #DCDCDC;
+}
+
+.content{
+    margin-top: 70px;
+}
+.large_pic{
+    background: url(https://images.unsplash.com/photo-1597679984444-f7cfda68b55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80;);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.round{
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.small_pic{
+    margin-top: 20px;
+    display: flex;
+    
+}
+.pic1{
+    margin-left: 2px;
+    margin-right: 2px;    
+}
+.pic2{
+    margin-left: 2px;
+    margin-right: 2px;    
+}
+.pic2{
+    margin-left: 2px;
+    margin-right: 2px;    
+}
+.item{
+    height: 200px;
+    background-color: #3e3e3e;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.title{
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+}
+
+.footer{
+    width: 600px;
+    height: 30px;
+    color: white;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
