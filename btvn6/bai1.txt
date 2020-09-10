@@ -1,0 +1,19 @@
+Arrow Function:
+
+Arrow function là một tính năng mới của ES6, giúp viết code ngắn gọn hơn.
+Arrow function sử dụng khá ok trong các TH dùng: map, filter, reducer,...
+Arrow function không có bind.
+Arrow function không phù hợp là method của object.
+VD: 
+    hello = () => {
+    console.log('hello')
+    }
+
+Function:
+
+Cần chú ý thêm về con trỏ được trỏ tới để định nghĩa lại this bằng 'bind'.
+
+VD:
+    function hello(){
+    console.log('hello')
+    }

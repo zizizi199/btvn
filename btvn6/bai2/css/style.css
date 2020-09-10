@@ -1,0 +1,48 @@
+.meme{
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#name{
+    background-color: rgb(252, 186, 3);
+    width: 500px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    color : white;
+    font-size:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 500px;
+}
+
+#description{
+    background-color: rgb(66, 135, 245);
+    width: 500px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    color : white;
+    font-size:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#datemodified{
+    background-color: rgb(50, 168, 82);
+    width: 500px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    color : white;
+    font-size:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:50px
+}
